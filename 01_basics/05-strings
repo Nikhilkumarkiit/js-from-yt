@@ -1,0 +1,25 @@
+const name="nikhil"
+const rank=235
+console.log(name + rank + "value")
+console.log(`hello my name is ${name} my rank is${rank}`)
+const gamename=new String('nikhil')
+// console.log(gamename[0]);
+// console.log(gamename.length);
+// console.log(gamename.toUpperCase());
+// console.log(gamename.charAt(3));
+console.log(gamename.indexOf('i'));
+const newstring =gamename.substring(0,4)
+console.log(newstring);
+const astring=gamename.slice(-6,3)
+// slice negative value bhi leta hai jisme wo string ko piche se substring banata hai
+console.log(astring)
+const name2="     ram     "
+console.log(name2)
+console.log(name2.trim())
+// trim ko extra space ko erase karne ke liye use karte hai
+const url="https.//ram.com/nikhil%20ksingh"
+console.log(url.replace('%20','-'))
+// repalce is used for value replacing
+console.log(url.includes('kumar'))
+
+
