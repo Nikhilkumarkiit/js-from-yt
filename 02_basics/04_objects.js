@@ -40,4 +40,5 @@ const course={
 // const {teacher}=course
 // console.log(t)
 // both the above symbol are used to destructure
+
  
