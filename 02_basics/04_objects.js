@@ -28,6 +28,16 @@ console.log(obj_3)
 const obj3_2={...obj1,...obj2}
 // spread technique
 // console.log(obj3_2)
-console.log(Object.values(tinderuser))
-console.log(Object.keys(tinderuser))
-console.log(Object.entries(tinderuser))
+// console.log(Object.values(tinderuser))
+// console.log(Object.keys(tinderuser))
+// console.log(Object.entries(tinderuser))
+const course={
+    course_name:"js",
+    fees:"zero",
+    teacher:"hitesh"
+}
+// const {teacher:t}=course
+// const {teacher}=course
+// console.log(t)
+// both the above symbol are used to destructure
+ 
