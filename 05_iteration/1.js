@@ -29,11 +29,18 @@ const myobj={
 // object mai for of nhi for in loop chalt hai
 for(const p in myobj)
 {
+    console.log(myobj[key])
+    // isse sirf value ata hai second one
+    console.log(p);
+    // isse se sirf key value print hot hai yani first one dono print karne ke liye niche wala syntax
     console.log(`${p} shotcut is for ${myobj[p]}`)
 }
 const prog=["js","rb","py","java"]
 for(const key in prog)
-{
+{   console.log(key)
+    // key
     console.log(prog[key])
+    //  value
 }
 // for in key deta hai aur map ke liye kaam nhi karta hai
+ 
