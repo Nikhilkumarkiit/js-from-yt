@@ -11,4 +11,29 @@ color:#fff ;">
         <li>javascript</li>
     </ul>
 </body>
+<script>
+    function addlang(langname){
+        const li=document.createElement('li');
+        li.innerHTML=langname
+        // yaha pura tree traverse karna pad raha hai
+        document.querySelector('.language').appendChild(li)    
+    }
+    addlang("cpp")
+    function addopt(langname){
+        const li=document.createElement('li')
+        li.appendChild(document.createTextNode(langname))
+        document.querySelector('.language').appendChild(li)
+    }
+    addopt("java")
+    // EDIT
+    const secondlang=document.querySelector("li:nth-child(2)")
+    // secondlang.innerHTML="mojo"
+    const newli=document.createElement('li')
+    newli.textContent="mojo"
+    secondlang.replaceWith(newli)
+
+    //        REMOVE
+    const lastlang=document.querySelector('li:last-child')
+    lastlang.remove()
+</script>
 </html>
